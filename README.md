@@ -1,5 +1,7 @@
 # Counting red blood cell in blood smear
 
+![Image processing pipeline in a nutshell](http://i68.tinypic.com/352i545.png)
+
 ## Goal of the project
 
 The goal of this project is to count the number of blood cells in a 2D image
