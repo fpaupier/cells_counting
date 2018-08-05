@@ -18,4 +18,7 @@ I take a reference cell, and convolute it to the image. Higher intensity zones c
 Then I apply a threshold at a given percentage of the histogram to get a binary image where the cells
 are white circles and the rest is black.
 Then, I use one of MatLab function to count the white zones in the binary image.
-I then apply m mask to  binthreshold Counting cells in a blood smear using convolution as the pattern matching strategy
+
+
+## Notes
+This project was part of my Master Of Science _Major in statistics_ at Centrale Nantes engineering school.
