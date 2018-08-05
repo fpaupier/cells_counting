@@ -1,6 +1,9 @@
 # Counting red blood cell in blood smear
 
-![Image processing pipeline in a nutshell](http://i68.tinypic.com/352i545.png)
+<p align="center"> 
+<img src="http://i68.tinypic.com/352i545.png">
+</p>
+
 
 ## Goal of the project
 
