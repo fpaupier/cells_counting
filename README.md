@@ -1,8 +1,8 @@
-# Counting red blood cell in blood smear
+# Cells counting
 
-<p align="center"> 
-<img src="http://i68.tinypic.com/352i545.png">
-</p>
+Counting red blood cells in blood smear.
+
+![](assets/cover.png)
 
 
 ## Goal of the project
@@ -14,16 +14,22 @@ of a blood smear.
 I use several steps of image pre-processing to obtain a binary image from which it is
 easy to count the cells by counting the white zones in the image.
 
-Many methods are available to solve this problems. I  present some of them and
-compare the results before concluding.
 
-## Most effective method
-The most accurate method I found is a pattern matching approach.
-I take a reference cell, and convolute it to the image. Higher intensity zones corresponds to cells center.
-Then I apply a threshold at a given percentage of the histogram to get a binary image where the cells
+### Most effective method
+The most accurate method I found is a _pattern matching approach_.
+
+1. I take a reference cell, and compute its convolution against the complete image.
+ Higher intensity zones corresponds to cells center.
+
+
+2. Then, I apply a threshold at a given percentage of the histogram to get a binary image where the cells
 are white circles and the rest is black.
-Then, I use one of MatLab function to count the white zones in the binary image.
+
+
+3. Finally, I count the white zones in the binary image.
 
 
 ## Notes
-This project was part of my Master Of Science _Major in statistics_ at Centrale Nantes engineering school.
+This project was part of my Master Of Science curriculum at Centrale Nantes.
+
+This project is no longer updated.
